@@ -1,6 +1,7 @@
 {
     "build": {
         "dockerfile": "./Dockerfile",
+        "runArgs": ["--name oracle-19c", "-p 1521:1521", "-e ORACLE_SID=system", "-e ORACLE_PWD=horlicks", "-v /oracle-19c/oradata/:/opt/oracle/oradata"],
         "context": "."
     },
     "features": {
