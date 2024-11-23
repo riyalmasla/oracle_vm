@@ -1,6 +1,4 @@
-FROM scratch
-
-ADD oraclelinux-9-amd64-rootfs.tar.xz /
+FROM doctorkirk/oracle-19c:latest
 
 # overwrite this with 'CMD []' in a dependent Dockerfile
 CMD ["/bin/bash"]
