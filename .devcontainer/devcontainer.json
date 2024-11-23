@@ -17,7 +17,6 @@
             "configureJupyterlabAllowOrigin": "*",
             "useOryxIfAvailable": "false"
         },
-        "./local-features/machine-learning-packages": "latest",
         "ghcr.io/devcontainers/features/git:1": {
             "version": "latest",
             "ppa": "false"
@@ -40,7 +39,6 @@
         "ghcr.io/devcontainers/features/git",
         "ghcr.io/devcontainers/features/python",
         "./local-features/patch-python",
-        "./local-features/machine-learning-packages",
         "ghcr.io/devcontainers/features/git-lfs",
         "ghcr.io/devcontainers/features/github-cli",
         "ghcr.io/devcontainers/features/docker-in-docker",
