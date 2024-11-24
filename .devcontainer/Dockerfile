@@ -8,8 +8,8 @@ LABEL name="oracle-19c"
 EXPOSE 1521
 
 # Set environment variables
-ENV ORACLE_SID="system"
-ENV ORACLE_PWD="horlicks"
+ENV ORACLE_SID=orcl
+ENV ORACLE_PWD=horlicks
 # ENV ORACLE_CHARACTERSET=[CHARSET]
 
 # [Optional] Uncomment this section to install additional OS packages.
