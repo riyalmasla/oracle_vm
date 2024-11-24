@@ -34,3 +34,19 @@ Additional information: -1341788829
 Process ID: 0
 Session ID: 0 Serial number: 0
 ```
+
+Problem is with TNS: coz when you give dsn:
+
+```
+[oracle@codespaces-b7bb9b admin]$ sqlplus system/horlicks@localhost:1521/orcl
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Sun Nov 24 04:12:25 2024
+Version 19.9.1.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+```
+
+And then fix thr listnser
