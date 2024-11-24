@@ -6,3 +6,6 @@ Note: comment out this line in `/etc/security/limits.d/oracle-database-preinstal
 ```
 oracle hard memlock 134217728
 ```
+
+## New trial 
+This is from `https://dev.to/pazyp/oracle-19c-with-docker-36m5`
